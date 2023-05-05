@@ -7,7 +7,7 @@ const { Configuration, OpenAIApi } = require('openai');
 
 const app = new Koa();
 const router = new Router();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT ;
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY
